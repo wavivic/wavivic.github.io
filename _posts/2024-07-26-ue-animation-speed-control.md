@@ -16,7 +16,7 @@ date: 2024-07-26 # 작성 날짜
 last_modified_at: 2024-08-13 # 최종 수정 날짜
 ---
 
-### 🌸 개요
+### 🍥🌷🫧☁️ 개요
 ![](https://velog.velcdn.com/images/cottondream/post/4f27e4a3-1fd6-4189-a689-6f1a522b697c/image.gif)
 
 칼을 내려치는 애니메이션 중에 다시 Idle로 돌아오는 _**특정 구간의 재생 속도를 제어**_ 하고 싶었다.
