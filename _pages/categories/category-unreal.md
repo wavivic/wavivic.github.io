@@ -1,7 +1,7 @@
 ---
 title: "UE"
 layout: category
-permalink: /categories/unreal/
+permalink: /unreal/
 author_profile: true
 taxonomy: UE
 sidebar:

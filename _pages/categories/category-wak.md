@@ -1,7 +1,7 @@
 ---
 title: "Wak"
 layout: category
-permalink: /categories/wak/
+permalink: /wak/
 author_profile: true
 taxonomy: Wak
 sidebar:

@@ -21,23 +21,23 @@ main:
 
 categories:
   - title: "C/C#/C++"
-    url: /categories/c/
+    url: /c/
   - title: "Algorithm"
-    url: /categories/algorithm/
+    url: /algorithm/
   - title: "Math"
-    url: /categories/math/
+    url: /math/
   - title: "CS"
-    url: /categories/cs/
+    url: /cs/
   
 
   - title: "Unity"
-    url: /categories/unity/
+    url: /unity/
   - title: "UE"
-    url: /categories/unreal/
+    url: /unreal/
   
-#  - title: "Projects"
-#    children:
-#      - title: "GCC TP"
-#        url: /categories/gcc/
-#      - title: "Wak"
-#        url: /categories/wak/
+  - title: "Projects"
+    children:
+      - title: "GCC TP"
+        url: /gcc/
+      - title: "Wak"
+        url: /wak/

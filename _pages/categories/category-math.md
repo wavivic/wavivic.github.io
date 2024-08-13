@@ -1,7 +1,7 @@
 ---
 title: "Math"
 layout: category
-permalink: /categories/math/
+permalink: /math/
 author_profile: true
 taxonomy: Math
 sidebar:
