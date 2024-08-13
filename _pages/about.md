@@ -1,5 +1,5 @@
 ---
-title: "Hi all! I'm OOOOOO👋🏻"
+title: "Hey, Developer!"
 permalink: /about/
 layout: single
 comments: false
