@@ -1,6 +1,6 @@
 ---
-title: "[UE] Weapon Bone이 있는 스켈레톤의 애니메이션"
-excerpt: "Weapon Bone이 있는 스켈레톤의 애니메이션을 리타겟팅을 통하여 원활하게 쓸 수 있는 방법"
+title: "[UE] 애니메이션 구간 속도 조절"
+excerpt: "ANS를 이용한 애니메이션 시퀀스의 특정 구간 속도 조절"
 
 categories: # 카테고리 설정
   - unreal
@@ -12,7 +12,7 @@ permalink: /unreal/ue-weapon-bone/ # 포스트 URL
 toc: true # 우측에 본문 목차 네비게이션 생성
 toc_sticky: true # 본문 목차 네비게이션 고정 여부
 
-date: 2024-07-25 # 작성 날짜
+date: 2024-07-26 # 작성 날짜
 last_modified_at: 2024-08-13 # 최종 수정 날짜
 ---
 
