@@ -1,7 +1,7 @@
 ---
 title: "C"
 layout: category
-permalink: /c/
+permalink: /categories/c/
 author_profile: true
 taxonomy: c
 sidebar:

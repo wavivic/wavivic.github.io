@@ -18,26 +18,22 @@ main:
 
 # sidebar navigation (categories)
 # 2022.02.15 sidebar update : simple ver.
-
 categories:
   - title: "C/C#/C++"
-    url: /basic/c/
+    url: /categories/c/
   - title: "Algorithm"
-    url: /basic/algorithm/
+    url: /categories/algorithm/
   - title: "Math"
-    url: /basic/math/
+    url: /categories/math/
   - title: "CS"
-    url: /basic/cs/
-  
-
+    url: /categories/cs/
   - title: "Unity"
-    url: /basic/unity/
+    url: /categories/unity/
   - title: "UE"
-    url: /basic/unreal/
-  
+    url: /categories/unreal/
   - title: "Projects"
     children:
       - title: "GCC TP"
-        url: /projects/gcc/
+        url: /categories/gcc/
       - title: "Wak"
-        url: /projects/wak/
+        url: /categories/wak/

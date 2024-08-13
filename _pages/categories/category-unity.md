@@ -1,7 +1,7 @@
 ---
 title: "Unity"
 layout: category
-permalink: /unity/
+permalink: /categories/unity/
 author_profile: true
 taxonomy: Unity
 sidebar:

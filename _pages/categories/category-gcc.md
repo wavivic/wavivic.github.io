@@ -1,7 +1,7 @@
 ---
 title: "GCC TP"
 layout: category
-permalink: /gcc/
+permalink: /categories/gcc/
 author_profile: true
 taxonomy: GCC TP
 sidebar:
