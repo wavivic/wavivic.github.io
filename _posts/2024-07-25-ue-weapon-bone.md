@@ -26,12 +26,12 @@ last_modified_at: 2024-08-13 # 최종 수정 날짜
 
 ## 🌿 해결 1)
 
-###  🌸 해결 방법
+###  해결 방법
 
 소켓과 Arrow 컴포넌트를 활용해 Montage Notify에서 무기의 메쉬의 위치를 조정해 봄.
   ![](https://velog.velcdn.com/images/cottondream/post/88a21b7e-a6de-4c59-b9ba-710cfd906b36/image.png)
 
-### 🌸 문제점
+###  문제점
 
 ![](https://velog.velcdn.com/images/cottondream/post/ad79fbf3-22c3-4ef9-a998-ea3fe58c5481/image.gif)
 ![](https://velog.velcdn.com/images/cottondream/post/018a1077-330a-49e8-abe1-66a0a3613f96/image.gif)
@@ -42,12 +42,12 @@ last_modified_at: 2024-08-13 # 최종 수정 날짜
 - - -
 
 ## 🌿 문제 분석
-### 🌸 해결할 수 있다고 생각한 이유
+###  해결할 수 있다고 생각한 이유
 
 원본 애니메이션은 제작 버전보다 한참 상위인 5.4.2 버전에서도 문제없이 깔끔하게 재생되었다. 충분히 해결할 수 있는 문제라고 생각했다.
 
 
-### 🌸 무엇이 다른가?
+### 무엇이 다른가?
 ![](https://velog.velcdn.com/images/cottondream/post/32b99f07-8c8a-4b9e-bcc1-32cf38935bb1/image.png)
 
 1) 원본 스켈레탈 메쉬는 검과 칼집이 아예 붙어있음.
@@ -56,7 +56,7 @@ last_modified_at: 2024-08-13 # 최종 수정 날짜
 4) 새로운 본이라서 리타겟팅(5.4 auto 진행) 되면서 이를 놓쳤다고 생각함.
 
 
-### 🌸 결론
+### 결론
 
 따라서, 본을 수정할 필요성을 느낌.
 
@@ -64,7 +64,7 @@ last_modified_at: 2024-08-13 # 최종 수정 날짜
 
 ## 🌿 해결 2)
 
-### 🌸 본 수정
+### 본 수정
 
 > **Skeletal Mesh Editing Tools**
 
@@ -72,6 +72,7 @@ last_modified_at: 2024-08-13 # 최종 수정 날짜
 기능(!)이다.
 
 - 언리얼 Plugins에서 **Skeletal Mesh Editing Tools**를 다운로드 받고 재시작.
+
 - 본을 수정할 스켈레탈 메쉬를 오픈.
 - Editing Tools를 클릭하고 Edit Skeleton 으로 원본 스켈레톤 참고하며 추가.
 
@@ -79,26 +80,26 @@ last_modified_at: 2024-08-13 # 최종 수정 날짜
   ![](https://velog.velcdn.com/images/cottondream/post/51721c98-7023-4594-bf74-55f09bc97bf5/image.png)
 
 
-### 🌸 리타겟 체인 추가
+### 리타겟 체인 추가
 
 - 원본과 수정할 스켈레탈 메쉬의 IK Rig 생성.
 - 최대한 원본과 비슷하게 체인 만들기.
 - Weapon용 본에 새로운 체인을 각각 만들어 서로 연결.
 
 
-### 🌸 리타겟팅 후 소켓 추가
+### 리타겟팅 후 소켓 추가
 
 - IK Rig 를 바탕으로 IK Retargeter 생성.
 - 해당 리타겟터를 이용해 애니메이션 리타겟팅.
 - 스켈레톤에 추가된 새로운 Weapon 본에 소켓을 넣고 무기 메쉬 부착.
 
 
-### 🌸 결과
+### 결과
 
 ![](https://velog.velcdn.com/images/cottondream/post/ce5df829-9a57-44d0-a851-c1659a3329ae/image.gif)
 
 
-### 🌸 문제점
+### 문제점
 
 기쁨, 그리고 절망.... 칼이 돌아가긴 한다. 본이 제대로 만들어져서 리타겟팅 된 것이다. 그러나 무기가 끝까지 오른손을 따라온다. 여기서 최후의 수단으로 키 프레임을 손수 찍어야 할까 고민했다. 그런데 막상
 하려고 했으면 어차피 사용해야 하는 스켈레탈 메쉬에는 무기 메쉬가 병합되어 있는 게 아니라서 적절하지 못한 방법이었을 것이다.
@@ -117,7 +118,7 @@ last_modified_at: 2024-08-13 # 최종 수정 날짜
 - 리타겟터에서 _Weapon Bone의 Chain 디테일_ 창 확인.
 - FK 항목에서 Translation Mode를 None에서 **Globally Scaled**로 변경.
 
-### 🌸 결과
+### 결과
 
 ![](https://velog.velcdn.com/images/cottondream/post/f734c7a2-9dd3-4608-abf8-61fe717322b0/image.gif)
 
