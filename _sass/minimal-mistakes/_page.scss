@@ -79,6 +79,7 @@ body {
 .page__title {
   margin-top: 0;
   line-height: 1.5;
+  font-family: $menufont;
   font-size: $type-size-3;
 
   & + .page__meta {
