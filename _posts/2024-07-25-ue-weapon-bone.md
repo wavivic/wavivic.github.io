@@ -36,7 +36,7 @@ last_modified_at: 2024-08-13 # 최종 수정 날짜
 ![](https://velog.velcdn.com/images/cottondream/post/ad79fbf3-22c3-4ef9-a998-ea3fe58c5481/image.gif)
 ![](https://velog.velcdn.com/images/cottondream/post/018a1077-330a-49e8-abe1-66a0a3613f96/image.gif)
 
-개발하고 있는 게임의 장르가 소울라이크이다보니, 전반적인 **_게임이 주는 중후한 무게가 생명_**이라고 생각했다. 그런데 멋있게 칼을 뽑고 넣어야 하는 상황에서 이런 식으로 덜커덩(...)거리는 건 타협할 수 없는
+개발하고 있는 게임의 장르가 소울라이크이다보니, 전반적인 **_게임이 주는 중후한 무게가 생명_** 이라고 생각했다. 그런데 멋있게 칼을 뽑고 넣어야 하는 상황에서 이런 식으로 덜커덩(...)거리는 건 타협할 수 없는
 지점. 심지어 구매한 애니메이션은 고가. 이와 같이 사용하려던 건 본 의도와는 동떨어져 있음.
 
 - - -
@@ -54,7 +54,7 @@ last_modified_at: 2024-08-13 # 최종 수정 날짜
 
 2) 스켈레톤에서 본 트리 구조를 확인하면서, 해당 메쉬가 어느 본에 붙어 있는지 확인.
 
-3) 오브젝트들은 본래 있어야 하는 손의 본을 부모로 하는 **weapon_r, weapon_l 이라는 새로운 본**에 붙어 있었음.
+3) 오브젝트들은 본래 있어야 하는 손의 본을 부모로 하는 <mark>weapon_r</mark>, <mark>weapon_l</mark> 이라는 새로운 본에 붙어 있었음.
 
 4) 새로운 본이라서 리타겟팅(5.4 auto 진행) 되면서 이를 놓쳤다고 생각함.
 
@@ -74,7 +74,7 @@ last_modified_at: 2024-08-13 # 최종 수정 날짜
 본을 만질 때는 보통 3D 모델링 프로그램을 써야 한다. 개인적으로 그렇게 하고 싶지 않았다.... 다른 툴까지 써가며 해결해야 되는 필수 이슈가 있는데, 판매자가 간과할 리가. 알고 보니 언리얼에서 이미 제공하는
 기능(!)이다.
 
-- 언리얼 Plugins에서 **Skeletal Mesh Editing Tools**를 다운로드 받고 재시작.
+- 언리얼 Plugins에서 <mark>Skeletal Mesh Editing Tools</mark> 를 다운로드 받고 재시작.
 
 - 본을 수정할 스켈레탈 메쉬를 오픈.
 - Editing Tools를 클릭하고 Edit Skeleton 으로 원본 스켈레톤 참고하며 추가.
@@ -119,7 +119,7 @@ last_modified_at: 2024-08-13 # 최종 수정 날짜
 > **Translation Mode를 Globally Scaled로 변경**
 
 - 리타겟터에서 _Weapon Bone의 Chain 디테일_ 창 확인.
-- FK 항목에서 Translation Mode를 None에서 **Globally Scaled**로 변경.
+- FK 항목에서 Translation Mode를 None에서 <mark>Globally Scaled</mark>로 변경.
 
 ### 결과
 
@@ -132,16 +132,15 @@ last_modified_at: 2024-08-13 # 최종 수정 날짜
 ## 🍥 요약
 
 > - 언리얼 플러그인을 이용해 타겟 스켈레탈 메쉬에 Weapon Bone을 추가
-
-- 원본, 타겟 전부 둘 다 Weapon Bone에 새로운 리타겟 체인 생성
-
-- 체인의 디테일 창에서 Translation Mode를 **Globally Scaled**로 변경
+> - 원본, 타겟 전부 둘 다 Weapon Bone에 새로운 리타겟 체인 생성 
+> - 체인의 디테일 창에서 Translation Mode를 Globally Scaled로 변경
 
 - - -
 
 ## 🍥 마무리
 
--
+- <mark>문제 파악</mark>
+
   소켓이나 코드로 무기 위치를 조정해 보았으나 느낌상으로 어색하거니와, 원본 애니메이션 시퀀스의 **프리뷰에서는 코드를 이용하지 않고도 칼이 옮겨 가는 것**을 보고 다른 방법이 있을 거라고 접근했다. 이번
   이슈에서 가장 핵심적인 키 포인트였다. _이슈와 타협하지 않을 수 있었던 이유_ 이기도 하다.
 

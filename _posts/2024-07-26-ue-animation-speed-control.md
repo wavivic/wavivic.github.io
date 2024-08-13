@@ -24,7 +24,7 @@ last_modified_at: 2024-08-13 # 최종 수정 날짜
 - - -
 
 ### 🍥 해결
-제어하는 데에 다른 방법이 있겠지만, 본 글에서는 **Montage**와 **Animation Notify State**를 이용한다.
+제어하는 데에 다른 방법이 있겠지만, 본 글에서는 <mark>Montage</mark>와 <mark>Animation Notify State</mark>를 이용한다.
 
 - 조절하고자 하는 애니메이션 시퀀스를 몽타주로 만든다.
 - 조절하고자 하는 구간에 ANS를 추가한다.
