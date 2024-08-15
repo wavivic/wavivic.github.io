@@ -1,7 +1,7 @@
 # main links
 main:
-  - title: "Home"
-    url: https://wavivic.github.io/
+#  - title: "Home"
+#    url: https://wavivic.github.io/
 
   - title: "About"
     url: /about/
