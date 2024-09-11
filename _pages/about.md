@@ -74,40 +74,33 @@ comments: false
         {{ "# INTRODUCE" | markdownify }}
 </div>
 <div class="column2">
-{{ "## 스스로 고민하고 실현해내는 것이 즐거운 게임 클라이언트 신입 개발자입니다.
+{{ "## 스스로 고민하고 실현해내는 것이 즐거운 게임 클라이언트 신입 개발자입니다."| markdownify }}
 <br>
-<mark><b>❛모❜로 가지 않고 ❛바❜로 서울 가는 개발자</b></mark>
-"| markdownify }}
-
 &ensp; 모 개발 회사 사무실에는 ‘어~?’ 를 금지하는
 문구<div class="hover-image-container"><a href="#"><sup>[1]</sup></a><img src="\assets\images\posts_img\about/first.jpg" width="400"></div>
 가 붙어 있다고 합니다. 개발자들의 밈(meme) 중에 만국 공통으로 유명한 밈은 ‘어? 이게 왜 되지?’, ‘어? 이게 왜 안 되지?’<div class="hover-image-container">
-<a href="#"><sup>[2]</sup></a><img src="\assets\images\posts_img\about/second.png" width="400"></div>가 있습니다. 저의 ‘어?’ 는
-‘어? 이게 왜 (의도한 대로) 안 되지?’ 밖에 없습니다!
-<br><p>
-&ensp; 직접 로직을 짜고 실행하는 데에서 흥미를 느끼기에 코드 한 줄, 한 줄의 의미와 왜? 를 알고 있습니다. 여태 해 온 코드의 99%는 제가 구성하고, 구현해낸 코드입니다. 나머지 1%는 패키지나
-플러그인을 이용한 코드이며, 모두 코드 리뷰 후에 블로그에 기록용으로 남겨 현재 N개의 포스트가 게시되어 있습니다.</p>
+<a href="#"><sup>[2]</sup></a><img src="\assets\images\posts_img\about/second.png" width="400"></div>가 있습니다. 저의 ‘어?’ 는 <i><b>‘어? 이게 왜 (의도한 대로) 안 되지?’</b></i> 밖에 없습니다!
 <br>
-{{ "
-<mark><b>혈을 뚫는 개발자</b></mark>
+<p>
+&ensp; 직접 로직을 짜고 실행하는 데에서 흥미를 느끼기에 코드 한 줄, 한 줄이 <u>①의미</u>가 무엇인지, 이 줄에서 어떤 <u>②역할</u>을 수행하는지, 이곳에 이 코드가 있어야 하는 <u>③이유</u>를 파악하고 있습니다. 이러한 이유로 여태 해 온 코드의 대다수는 직접 구성하고, 구현해낸 코드입니다. 종종 레퍼런스로 삼은 코드가 있다면 코드 리뷰 후에 블로그에 기록용으로 남겨 현재 N개의 포스트가 게시되어 있습니다.
+</p><br>
+<p></p>
+{{ "<mark><b>먼저 청사진을 그리는 개발자</b></mark>
 
-&ensp; 이슈의 원인을 파악하여 문제를 해결하는 능력이 뛰어납니다. 두 번의 교육 기간 동안 코드 이슈로 강의 시간이 딜레이 되는 경우, 강사님들에게 문제 해결 방법을 제시하여 “쉬는 시간에 ㅇㅇㅇ 학생이 말해
-준 대로 수정하니 되었습니다. 자, 여기서~” 와 같은 경험이 여러 차례 있었습니다. 뿐만 아니라, 같은 교육 동기생들이나 팀원이 어려워하는 문제에 해결책을 제시하기도 하였습니다.
-<p>&ensp;  해결 경험을 잊지 않고 복기, 공유하기 위하여 개발일지 형식으로 남기고 있습니다. 개발 일지를 작성할 때 가장 중요하게 생각하는 것은 원인에 접근하는 근거입니다.</p>
+&ensp; 코드를 짠다고 했을 때 가장 먼저 하는 일은 <b>원하는 의도를 잘 정리</b> 하는 것입니다. 의도를 구현하기 위해 세워야 할 로직은 의도를 구체화할수록 쉽게 접근할 수 있기 때문입니다. 특히 <U> 반복과 규칙, 분기점 </u> 같은 요소를 유념하고 있습니다.
+
+&ensp; 그렇게 <i>무엇을?</i> 이 완성되면 다음은 <i>어떻게?</i> 입니다. 구현해야 할 로직이 복잡할수록 저는 슈도 코드 작성하는 것을 즐겨하는 편입니다. 자연어로 문장을 모아 한 흐름을 만듭니다. 그후에 한 문장마다 쪼갠 후, 컴퓨터의 언어로 번역하면 그 안에서 등장하는 숨은 명령을 찾아냅니다. 복잡한 기능을 구현해야 할수록 먼저 펜을 들고, 고민하는 성향입니다. 코드의 의미와, 역할, 이유를 아는 이유입니다.
 "| markdownify }}
-📝 <div class="hover-image-container"><a href="/unreal/ue-weapon-bone/" target=_blank> 문제 해결 경험 개발일지 - [UE] Weapon Bone이 있는 스켈레톤의 애니메이션</a></div>
 <br>
-<br>
-{{ "
 
-<mark><b>그밖에</b></mark>
+{{ "<mark><b>❛모❜로 가지 않고 ❛바❜로 서울 가는 개발자, 혈을 뚫어 주는 개발자</b></mark>
 
-- 공통적으로 사용하는 함수라면 재사용할 수 있는 상황을 고려하여 코드를 짭니다. 상속과 인터페이스를 즐겨 사용합니다.
-- 최대한 Tick, Update 구문을 피하기 위하여 Set 함수, 프로퍼티를 즐겨 사용합니다.
+&ensp; 스스로 고민하여 코드를 짠다는 이유로 문제 해결을 할 때 의미없이 노드 핀을 여기저기 연결한다든가, 사용한 함수를 바꿔 본다든가 하는 일이 없습니다. 얻어 걸리는 식의 문제 해결을 지양하고 있습니다. 안 된다면 안 되는 이유가 분명 있을 거라고 생각하며, 문제에 당면하였을 때 가장 먼저 <b>*원인에 접근하는 편*</b>입니다.
 
+&ensp; 그러한 성향 때문에 교육 기간 동안 강의를 진행하는 강사님이나 동기들에게 문제 해결 방법을 제시하는 일이 빈번하였습니다. 같은 문제로 오래 고민하고 있는 동기를 보면 같은 특징을 가지고 있었는데, 그것은 바로 컴퓨터를 의심하는 것이었습니다. 그럴 때마다 저는 매번 말합니다. 컴퓨터는 거짓말을 하지 않아! 의심해야 하는 것은 <i>내가 과연 컴퓨터에게 제대로 명령을 했는가</i>, 라고 충고합니다. 이를 확인할 수 있는 강력한 방법은 <u>디버깅</u>이며, 상대의 의도를 파악한 후 그에 맞게 디버깅할 포인트들을 알려 주는 식으로 접근합니다.
+<p>&ensp;  이러한 해결 경험을 잊지 않고 복기, 공유하기 위하여 개발일지 형식으로 남기고 있습니다. 개발 일지를 작성할 때 가장 중요하게 생각하는 것은 <b>원인에 접근하는 근거</b>입니다.</p>
 "| markdownify }}
-</div>
-</div>
+📝 <div class="hover-image-container"><a href="/unreal/ue-weapon-bone/" target=_blank> 문제 해결 경험 개발일지 - [UE] Weapon Bone이 있는 스켈레톤의 애니메이션</a></div></div></div>
 
 - - -
 
@@ -181,7 +174,7 @@ Tile</mark>
 
 " | markdownify }}
 
-📽️ <a href="https://youtu.be/qDrX-Z9s8iE?si=9LiZh4lM9rZpLVuI" target=_blank>돌돌네이쳐 (Doll Doll Nature) 인게임 플레이 영상</a>
+📽️ <a href="https://youtu.be/qDrX-Z9s8iE?si=9LiZh4lM9rZpLVuI" target=_blank>인게임 플레이 영상</a>
 {{ "
 - - - 
 
@@ -221,7 +214,7 @@ Tile</mark>
 #### Game Play Video
 
 " | markdownify }}
-📽️ <a href="https://youtu.be/qDrX-Z9s8iE?si=NyU65NMI1zR_f1Ku&t=169" target=_blank>Do Not Late! 인게임 플레이 영상</a>
+📽️ <a href="https://youtu.be/qDrX-Z9s8iE?si=NyU65NMI1zR_f1Ku&t=169" target=_blank>인게임 플레이 영상</a>
 {{ "
 - - - 
 
@@ -262,7 +255,7 @@ Tile</mark>
 #### Game Play Video
 
 " | markdownify }}
-📽️ <a href="#" target=_blank>인게임 플레이 영상</a>
+📽️ <a href="https://youtu.be/SoNoUJA6L8Y?si=Yd-XGcMGLYM082Tz" target=_blank>인게임 플레이 영상</a>
 {{ "
 
 - - - 
@@ -305,7 +298,7 @@ Tile</mark>
 #### Game Play Video
 
 " | markdownify }}
-📽️ <a href="#" target=_blank>인게임 플레이 영상</a>
+📽️ <a href="https://youtu.be/cNaSxMAQjQc?si=BhgMc9HXjfSDMyil" target=_blank>인게임 플레이 영상</a>
 </div> 
 </div> 
 - - -
