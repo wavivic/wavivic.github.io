@@ -35,9 +35,9 @@ categories:
      - title: "UE"
        url: /categories/unreal
        
-  - title: "Projects"
-    children:
-      - title: "GCC"
-        url: /categories/gcc
-      - title: "Wak"
-        url: /categories/wak
+#  - title: "Projects"
+#    children:
+#      - title: "GCC"
+#        url: /categories/gcc
+#      - title: "Wak"
+#        url: /categories/wak
