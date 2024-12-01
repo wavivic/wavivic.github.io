@@ -83,13 +83,10 @@ comments: false
 <br>
 <p>
 
-1. 기능을 스스로 고민하고 실현해내며, 작성한 코드 한 줄, 한 줄의 문맥적 의미와 역할을 파악하고 있습니다.
-
-2. 구현할 구체적인 목표를 정리 후에 슈도 코드를 작성하여 로직을 짭니다.
-
-3. 의도와 달리 작동하지 않을 때엔 왜 안 되는지 가장 먼저 원인에 접근합니다. 디버깅을 적극 활용합니다.
-
-4. 교육 기간 동안 강사나 교육생들에게 문제 접근 방식이나 해결 방법을 제시한 경험이 다수 존재합니다.
+1. 기능을 스스로 고민하고 실현해내며, 작성한 코드 한 줄, 한 줄의 문맥적 의미와 역할을 파악하고 있습니다.<br>
+2. 구현할 구체적인 목표를 정리 후에 슈도 코드를 작성하여 로직을 짭니다.<br>
+3. 의도와 달리 작동하지 않을 때엔 왜 안 되는지 가장 먼저 원인에 접근합니다. 디버깅을 적극 활용합니다.<br>
+4. 교육 기간 동안 강사나 교육생들에게 문제 접근 방식이나 해결 방법을 제시한 경험이 다수 존재합니다.<br>
 
 </p><br>
 <p></p>
@@ -117,10 +114,10 @@ comments: false
 
 📝 <div class="hover-image-container"><a href="/unreal/ue-weapon-bone/" target=_blank> 문제 해결 경험 개발일지 - [UE] Weapon Bone이 있는 스켈레톤의 애니메이션</a>
 
-</div><p><br>
-{{ "
+</div></div></div><p><br>
+
 - - -
-"| markdownify }}
+
 <div class="two-columns">
 <div class="column1">
 {{ "# SKILL" | markdownify }}
@@ -140,9 +137,9 @@ comments: false
 " | markdownify }}
 </div> 
 </div>
-{{ "
+
 - - -
-"| markdownify }}
+
 <div class="two-columns">
 <div class="column1">
 {{ "# CAREER" | markdownify }}
@@ -160,9 +157,9 @@ comments: false
 
 " | markdownify }}
 </div></div>
-{{ "
+
 - - -
-"| markdownify }}
+
 <div class="two-columns">
 <div class="column1">
 {{ "# PROJECTS" | markdownify }}
@@ -430,6 +427,5 @@ Tile</mark>
 <br><br>
 
 " | markdownify }}
-</div>
 </div>
 </div>
