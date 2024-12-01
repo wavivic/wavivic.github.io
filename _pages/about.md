@@ -84,9 +84,13 @@ comments: false
 <p>
 
 1. 기능을 스스로 고민하고 실현해내며, 작성한 코드 한 줄, 한 줄의 문맥적 의미와 역할을 파악하고 있습니다.
+
 2. 구현할 구체적인 목표를 정리 후에 슈도 코드를 작성하여 로직을 짭니다.
+
 3. 의도와 달리 작동하지 않을 때엔 왜 안 되는지 가장 먼저 원인에 접근합니다. 디버깅을 적극 활용합니다.
+
 4. 교육 기간 동안 강사나 교육생들에게 문제 접근 방식이나 해결 방법을 제시한 경험이 다수 존재합니다.
+
 </p><br>
 <p></p>
 {{ "<mark><b>💡 스스로 고민하고 실현하는 개발자</b></mark>
@@ -111,7 +115,9 @@ comments: false
 &ensp; 의도한 바대로 실행이 되지 않을 때, 가장 먼저 하는 일은 **원인에 접근**하는 것입니다. 이때, 디버깅을 적극 활용합니다. 때로는 사용한 엔진 함수의 소스 코드를 확인해 보기도 합니다. 우연에 의존한 문제 해결 방식을 철저히 베재하고 **체계적이고 논리적인 문제 해결**을 지향합니다.
 "| markdownify }}
 
-📝 <div class="hover-image-container"><a href="/unreal/ue-weapon-bone/" target=_blank> 문제 해결 경험 개발일지 - [UE] Weapon Bone이 있는 스켈레톤의 애니메이션</a></div></div></div>
+📝 <div class="hover-image-container"><a href="/unreal/ue-weapon-bone/" target=_blank> 문제 해결 경험 개발일지 - [UE] Weapon Bone이 있는 스켈레톤의 애니메이션</a>
+
+</div><p><br>
 
 - - -
 
@@ -423,7 +429,6 @@ Tile</mark>
 <br><br>
 
 " | markdownify }}
-</div>
 </div>
 </div>
 </div>
