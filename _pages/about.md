@@ -118,9 +118,9 @@ comments: false
 📝 <div class="hover-image-container"><a href="/unreal/ue-weapon-bone/" target=_blank> 문제 해결 경험 개발일지 - [UE] Weapon Bone이 있는 스켈레톤의 애니메이션</a>
 
 </div><p><br>
-
+{{ "
 - - -
-
+"| markdownify }}
 <div class="two-columns">
 <div class="column1">
 {{ "# SKILL" | markdownify }}
@@ -140,8 +140,9 @@ comments: false
 " | markdownify }}
 </div> 
 </div>
-
+{{ "
 - - -
+"| markdownify }}
 <div class="two-columns">
 <div class="column1">
 {{ "# CAREER" | markdownify }}
@@ -159,9 +160,9 @@ comments: false
 
 " | markdownify }}
 </div></div>
-
----
-
+{{ "
+- - -
+"| markdownify }}
 <div class="two-columns">
 <div class="column1">
 {{ "# PROJECTS" | markdownify }}
