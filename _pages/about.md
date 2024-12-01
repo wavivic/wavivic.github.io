@@ -389,7 +389,7 @@ Tile</mark>
 
 <div class="two-columns">
 <div class="column1">
-{{ "# Education" | markdownify }}
+{{ "# EDUCATION" | markdownify }}
 </div>
 <div class="column2">
 {{ "
