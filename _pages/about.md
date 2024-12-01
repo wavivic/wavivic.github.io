@@ -74,34 +74,43 @@ comments: false
         {{ "# INTRODUCE" | markdownify }}
 </div>
 <div class="column2">
-{{ "## 스스로 고민하고 실현해내는 것이 즐거운 게임 클라이언트 신입 개발자입니다."| markdownify }}
+{{ "## 스스로 고민하고 실현해내는 것이 즐거운 게임 클라이언트 개발자입니다."| markdownify }}
 <br>
 &ensp; 모 개발 회사 사무실에는 ‘어~?’ 를 금지하는
 문구<div class="hover-image-container"><a href="#"><sup>[1]</sup></a><img src="\assets\images\posts_img\about/first.jpg" width="400"></div>
 가 붙어 있다고 합니다. 개발자들의 밈(meme) 중에 만국 공통으로 유명한 밈은 ‘어? 이게 왜 되지?’, ‘어? 이게 왜 안 되지?’<div class="hover-image-container">
-<a href="#"><sup>[2]</sup></a><img src="\assets\images\posts_img\about/second.png" width="400"></div>가 있습니다. 저의 ‘어?’ 는 <i><b>‘어? 이게 왜 (의도한 대로) 안 되지?’</b></i> 밖에 없습니다!
+<a href="#"><sup>[2]</sup></a><img src="\assets\images\posts_img\about/second.png" width="400"></div>가 있습니다. 저의 ‘어?’ 는 <i><b>‘어? 이게 왜 (의도한 대로) 안 되지?’</b></i> 밖에 없습니다.
 <br>
 <p>
-&ensp; 직접 로직을 짜고 실행하는 데에서 흥미를 느끼기에 코드 한 줄, 한 줄이 <u>①의미</u>가 무엇인지, 이 줄에서 어떤 <u>②역할</u>을 수행하는지, 이곳에 이 코드가 있어야 하는 <u>③이유</u>를 파악하고 있습니다.
 
-&ensp; 이러한 성향으로 인해 문제 해결 능력이 향상되었고, 동료들과의 협업 시에도 효과적인 커뮤니케이션을 할 수 있게 되었습니다. 또한, 코드의 가독성과 유지보수성을 높이는 데에도 큰 도움이 되었습니다. 아래에는 그에 따른 효과에 대한 이야기를 구체적으로 해 보았습니다.
+1. 기능을 스스로 고민하고 실현해내며, 작성한 코드 한 줄, 한 줄의 문맥적 의미와 역할을 파악하고 있습니다.
+2. 구현할 구체적인 목표를 정리 후에 슈도 코드를 작성하여 로직을 짭니다.
+3. 의도와 달리 작동하지 않을 때엔 왜 안 되는지 가장 먼저 원인에 접근합니다. 디버깅을 적극 활용합니다.
+4. 교육 기간 동안 강사나 교육생들에게 문제 접근 방식이나 해결 방법을 제시한 경험이 다수 존재합니다.
 </p><br>
 <p></p>
-{{ "<mark><b>먼저 청사진을 그리는 개발자</b></mark>
+{{ "<mark><b>💡 스스로 고민하고 실현하는 개발자</b></mark>
 
-&ensp; 코드를 짠다고 했을 때 가장 먼저 하는 일은 <b>원하는 의도를 잘 정리</b> 하는 것입니다. 의도를 구현하기 위해 세워야 할 로직은 의도를 구체화할수록 쉽게 접근할 수 있기 때문입니다. 특히 <U> 반복과 규칙, 분기점 </u> 같은 요소를 유념하고 있습니다.
+&ensp; 프로젝트를 진행하면서 작성한 코드의 대다수는 **직접 구성하고, 구현**해낸 코드입니다. 혹여 레퍼런스로 삼은 자료가 있다면, 원리를 이해하고 이를 체득하기 위하여 블로그에 일지 형식으로 남기고 있습니다.
 
-&ensp; 그렇게 <i>무엇을?</i> 이 완성되면 다음은 <i>어떻게?</i> 입니다. 구현해야 할 로직이 복잡할수록 저는 슈도 코드 작성하는 것을 즐겨하는 편입니다. 자연어로 문장을 모아 한 흐름을 만듭니다. 그후에 한 문장마다 쪼갠 후, 컴퓨터의 언어로 번역하면 그 안에서 등장하는 숨은 명령을 찾아냅니다. 복잡한 기능을 구현해야 할수록 먼저 펜을 들고, 고민하는 성향입니다. 코드의 의미와, 역할, 이유를 아는 이유입니다.
+&ensp; 이러한 작업 성향 덕분에 코드의 유지 보수 속도가 빠르고, 이슈가 발생했을 때 팀원과의 커뮤니케이션이 즉각적으로 이루어집니다.
 "| markdownify }}
-<br>
 
-{{ "<mark><b>❛모❜로 가지 않고 ❛바❜로 서울 가는 개발자, 혈을 뚫어 주는 개발자</b></mark>
+<p>
+<p><br>
+{{ "<mark><b>🎨 청사진을 그리는 개발자</b></mark>
 
-&ensp; 스스로 고민하여 코드를 짠다는 이유로 문제 해결을 할 때 의미없이 노드 핀을 여기저기 연결한다든가, 사용한 함수를 바꿔 본다든가 하는 일이 없습니다. 얻어 걸리는 식의 문제 해결을 지양하고 있습니다. 안 된다면 안 되는 이유가 분명 있을 거라고 생각하며, 문제에 당면하였을 때 가장 먼저 <b>*원인에 접근하는 편*</b>입니다.
-
-&ensp; 그러한 성향 때문에 교육 기간 동안 강의를 진행하는 강사님이나 동기들에게 문제 해결 방법을 제시하는 일이 빈번하였습니다. 같은 문제로 오래 고민하고 있는 동기를 보면 같은 특징을 가지고 있었는데, 그것은 바로 컴퓨터를 의심하는 것이었습니다. 그럴 때마다 저는 매번 말합니다. 컴퓨터는 거짓말을 하지 않아! 의심해야 하는 것은 <i>내가 과연 컴퓨터에게 제대로 명령을 했는가</i>, 라고 충고합니다. 이를 확인할 수 있는 강력한 방법은 <u>디버깅</u>이며, 상대의 의도를 파악한 후 그에 맞게 디버깅할 포인트들을 알려 주는 식으로 접근합니다.
-<p>&ensp;  이러한 해결 경험을 잊지 않고 복기, 공유하기 위하여 개발일지 형식으로 남기고 있습니다. 개발 일지를 작성할 때 가장 중요하게 생각하는 것은 <b>원인에 접근하는 근거</b>입니다.</p>
+&ensp; *무엇을?* 을 먼저 명확히 합니다. 하고자 하는 바를 코드 흐름과 유사한 흐름대로 잘게 쪼개어 정리합니다. 그 다음인 *어떻게?* 는 **슈도 코드**를 작성하는 것입니다. 복잡한 기능을 구현해야 할수록 펜을 들고 고민하는 성향입니다.
 "| markdownify }}
+
+<p>
+<br><p>
+
+{{ "<mark><b>🏃‍➡️ ❛모❜로 가지 않고 ❛바❜로 서울 가는 개발자</b></mark>
+
+&ensp; 의도한 바대로 실행이 되지 않을 때, 가장 먼저 하는 일은 **원인에 접근**하는 것입니다. 이때, 디버깅을 적극 활용합니다. 때로는 사용한 엔진 함수의 소스 코드를 확인해 보기도 합니다. 우연에 의존한 문제 해결 방식을 철저히 베재하고 **체계적이고 논리적인 문제 해결**을 지향합니다.
+"| markdownify }}
+
 📝 <div class="hover-image-container"><a href="/unreal/ue-weapon-bone/" target=_blank> 문제 해결 경험 개발일지 - [UE] Weapon Bone이 있는 스켈레톤의 애니메이션</a></div></div></div>
 
 - - -
@@ -113,20 +122,39 @@ comments: false
 <div class="column2">
 {{ "
 
-- C# <mark>(4/5)</mark>
-- C++ <mark>(3/5)</mark>
-- Unity  <mark>(4/5)</mark>
-- Unreal Engine <mark>(4/5)</mark>
-- Github <mark>(4/5)</mark>
-- HTML <mark>(2/5)</mark>
-- CSS <mark>(2/5)</mark>
+- Unity
+- Unreal Engine
+- C#
+- C++
+- Github
+- SVN
+- HTML
+- CSS
 
 " | markdownify }}
 </div> 
 </div>
 
 - - -
+<div class="two-columns">
+<div class="column1">
+{{ "# Career" | markdownify }}
+</div>
+<div class="column2">
+{{ "
+## <font color=ff9db9>Geniesoft</font>
 
+- 직급 : 인턴
+- 기간 : 2024. 10. 21 ~ 2024. 12. 13
+- 담당 업무
+  - 더스트 더비 (Dust Derby) AI 유지 보수 및 개선
+  - 더스트 더비 (Dust Derby) 장난감 스테이지 콘텐츠 개발
+  - 새 스테이지 기획 및 제작
+
+" | markdownify }}
+</div></div>
+
+---
 
 <div class="two-columns">
 <div class="column1">
@@ -134,7 +162,6 @@ comments: false
 </div>
 <div class="column2">
 {{ "
-
 ## <font color=ff9db9>돌돌네이쳐 (Doll Doll Nature)</font>
 
 <i>Unity를 이용하여, ‘Stardew Valley’ 게임을 오마주한 농사 시뮬레이션 2D 게임 개발</i>
@@ -177,6 +204,61 @@ Tile</mark>
 " | markdownify }}
 
 📽️ <a href="https://youtu.be/qDrX-Z9s8iE?si=9LiZh4lM9rZpLVuI" target=_blank>인게임 플레이 영상</a>
+{{ "
+- - -
+
+## <font color=ff9db9>KIHON</font>
+
+<i>Unreal Engine을 이용하여, ‘섀키로 : ‘섀도즈 다이 트와이스 게임을 오마주한 <b>3D 소울라이크 ARPG 게임</b> 개발</i>
+<br><br>
+
+#### Description
+
+- 프로젝트 인원 : 5인 개발
+- 사용 엔진 : Unreal Engine 5
+- 기간 : 2024. 07. 08 ~ 2024. 09. 30 <mark>총 65 일</mark>
+  <br><br>
+
+#### What did I do
+
+- 역할
+  - 프로젝트 매니저 및 기획 · 개발 총괄
+  - Player, 최종 보스 파트 전담
+  - Github 리포지토리 관리
+- 기여
+    - Player 파트 전담
+      - 애니메이션
+      - 공격, 가드, 패링, 처형
+      - 스탯
+      - 각종 상호작용 등
+  - 게임 시스템 관련한 매니저 구현
+      - UI Manager
+      - Sound Manager
+      - Level Manager
+      - Setting Manager 등
+  - 게임 데이터 로드 및 세이브 기능 구현
+  - 카메라 액션 무빙 제어, 카메라 락온 기능 구현
+  - 보스 진입 시퀀스 제작
+  - 최종 보스 AI 제작 등
+        <br><br>
+
+#### Insights
+
+1. Github를 이용하여 브랜치 작업, 컨플릭트 처리, 커밋 컨벤션 등과 같은 협업 프로젝트 관리법 습득했습니다.
+2. 데이트 로드 및 세이브 기능을 고려한 거시적 관점에서의 액터 설계를 하게 되었습니다.
+3. 협업에서 타 팀원들의 코드 가독성을 높이기 위하여 의도가 담긴 주석을 작성하였습니다.
+   <br><br>
+
+#### Skill
+
+<mark>UE</mark> <mark>Github</mark> <mark>Blueprint</mark> <mark>Sequencer</mark>
+<br><br>
+
+#### Game Play Video
+
+" | markdownify }}
+
+📽️ <a href="https://youtu.be/cv4Lt6bWeQ4?si=40HTDLb7joHvQ0fJ" target=_blank>인게임 플레이 영상</a>
 {{ "
 - - - 
 
@@ -341,5 +423,7 @@ Tile</mark>
 <br><br>
 
 " | markdownify }}
+</div>
+</div>
 </div>
 </div>
