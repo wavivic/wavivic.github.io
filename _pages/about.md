@@ -170,7 +170,7 @@ comments: false
 {{ "
 ## <font color=ff9db9>돌돌네이쳐 (Doll Doll Nature)</font>
 
-<i>Unity를 이용하여, ‘Stardew Valley’ 게임을 오마주한 농사 시뮬레이션 2D 게임 개발</i>
+<i>Unity를 이용하여, ‘Stardew Valley’ 게임을 오마주한 **2D 농사 시뮬레이션 게임** 개발</i>
 <br><br>
 
 #### Description
@@ -270,7 +270,7 @@ Tile</mark>
 
 ## <font color=ff9db9>Do Not Late!</font>
 
-<i>Unity 엔진을 이용한 3D 캐쥬얼 레이싱 게임 개발</i>
+<i>Unity 엔진을 이용한 **3D 캐쥬얼 레이싱 게임** 개발</i>
 <br><br>
 
 #### Description
@@ -310,7 +310,7 @@ Tile</mark>
 
 ## <font color=ff9db9>❛Otter Story❜ Team Project</font>
 
-<i>Unity 엔진을 이용한 횡스크롤 액션 2D 게임 개발 / 첫 팀 프로젝트</i>
+<i>Unity 엔진을 이용한 **횡스크롤 액션 2D 게임** 개발 / 첫 팀 프로젝트</i>
 <br><br>
 
 #### Description
@@ -352,7 +352,7 @@ Tile</mark>
 
 ## <font color=ff9db9>❛Animal Hunting Game❜ Team Project</font>
 
-<i>Unity 엔진을 이용한 쿼터뷰 형식의 FPS 게임 개발</i>
+<i>Unity 엔진을 이용한 **쿼터뷰 형식의 FPS 게임** 개발</i>
 <br><br>
 
 #### Description
