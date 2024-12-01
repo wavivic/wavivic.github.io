@@ -138,7 +138,7 @@ comments: false
 - - -
 <div class="two-columns">
 <div class="column1">
-{{ "# Career" | markdownify }}
+{{ "# CAREER" | markdownify }}
 </div>
 <div class="column2">
 {{ "
@@ -158,7 +158,7 @@ comments: false
 
 <div class="two-columns">
 <div class="column1">
-{{ "# Projects" | markdownify }}
+{{ "# PROJECTS" | markdownify }}
 </div>
 <div class="column2">
 {{ "
