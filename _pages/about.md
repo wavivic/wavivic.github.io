@@ -81,30 +81,7 @@ comments: false
 &ensp; 모 개발 회사 사무실에는 ‘어~?’ 를 금지하는
 문구<div class="hover-image-container"><a href="#"><sup>[1]</sup></a><img src="\assets\images\posts_img\about/first.jpg" width="400"></div>
 가 붙어 있다고 합니다. 개발자들의 밈(meme) 중에 만국 공통으로 유명한 밈은 ‘어? 이게 왜 되지?’, ‘어? 이게 왜 안 되지?’<div class="hover-image-container">
-<a href="#"><sup>[2]</sup></a><img src="\assets\images\posts_img\about/second.png" width="400"></div>가 있습니다. 저의 ‘어?’ 는 <i><b>‘어? 이게 왜 (의도한 대로) 안 되지?’</b></i> 밖에 없습니다.
-
-<br><br>
-
-1. 기능을 스스로 고민하고 실현해내며, 작성한 코드 한 줄, 한 줄의 문맥적 의미와 역할을 파악하고 있습니다.<br>
-2. 구현할 구체적인 목표를 정리 후에 슈도 코드를 작성하여 로직을 짭니다.<br>
-3. 의도와 달리 작동하지 않을 때엔 왜 안 되는지 가장 먼저 원인에 접근합니다. 디버깅을 적극 활용합니다.<br>
-4. 교육 기간 동안 강사나 교육생들에게 문제 접근 방식이나 해결 방법을 제시한 경험이 다수 존재합니다.
-
-<br><br>
-<p></p>
-
-<p><mark><b>💡 스스로 고민하고 실현하는 개발자</b></mark></p>
-
-&ensp; 프로젝트를 진행하면서 작성한 코드의 대다수는 <b>직접 구성하고, 구현</b>해낸 코드입니다. 혹여 레퍼런스로 삼은 자료가 있다면, 원리를 이해하고 이를 체득하기 위하여 블로그에 일지 형식으로 남기고 있습니다. 이러한 작업 성향 덕분에 코드의 유지 보수 속도가 빠르고, 이슈가 발생했을 때 팀원과의 커뮤니케이션이 즉각적으로 이루어집니다.
-
-<br><br>
-<p><mark><b>🎨 청사진을 그리는 개발자</b></mark></p>
-&ensp; <i>무엇을?</i> 을 먼저 명확히 합니다. 하고자 하는 바를 코드 흐름과 유사한 흐름대로 잘게 쪼개어 정리합니다. 그 다음인 <i>어떻게?</i> 는 <b>슈도 코드</b>를 작성하는 것입니다. 복잡한 기능을 구현해야 할수록 펜을 들고 고민하는 성향입니다.
-
-<br><br>
-<p><mark><b>🏃‍➡️ ❛모❜로 가지 않고 ❛바❜로 서울 가는 개발자</b></mark></p>
-
-&ensp; 의도한 바대로 실행이 되지 않을 때, 가장 먼저 하는 일은 <b>원인에 접근</b>하는 것입니다. 이때, 디버깅을 적극 활용합니다. 때로는 사용한 엔진 함수의 소스 코드를 확인해 보기도 합니다. 우연에 의존한 문제 해결 방식을 철저히 베재하고 <b>체계적이고 논리적인 문제 해결</b>을 지향합니다.
+<a href="#"><sup>[2]</sup></a><img src="\assets\images\posts_img\about/second.png" width="400"></div>가 있습니다. 저의 ‘어?’ 는 <i><b>‘어? 이게 왜 (의도한 대로) 안 되지?’</b></i> 밖에 없습니다! 😋
 
 </div></div>
 
@@ -127,8 +104,6 @@ comments: false
 - C++
 - Github
 - SVN
-- HTML
-- CSS
 
 " | markdownify }}
 </div> 
@@ -142,14 +117,12 @@ comments: false
 </div>
 <div class="column2">
 {{ "
-## <font color=ff9db9>Geniesoft</font>
+## <font color=ff9db9>???</font>
 
-- 직급 : 인턴
-- 기간 : 2024. 10. 21 ~ 2024. 12. 13
 - 담당 업무
-  - 더스트 더비 (Dust Derby) AI 유지 보수 및 개선
-  - 더스트 더비 (Dust Derby) 장난감 스테이지 콘텐츠 개발
-  - 더스트 더비 (Dust Derby) 새 스테이지 기획 및 제작
+  - 스팀 출시 ????? AI 유지 보수 및 개선
+  - 스팀 출시 게임 ????? 스테이지 콘텐츠 개발
+  - 스팀 출시 게임 ????? 새 스테이지 기획 및 제작
 
 " | markdownify }}
 </div></div>
@@ -386,42 +359,3 @@ Tile</mark>
 </div> 
 </div> 
 - - -
-
-<div class="two-columns">
-<div class="column1">
-{{ "# EDUCATION" | markdownify }}
-</div>
-<div class="column2">
-{{ "
-
-## <font color=ff9db9>The국제직업전문학교</font>
-
-<i>C#, Unity를 이용한 게임 개발 및 에셋 디자이너 양성 과정 6기</i>
-<br><br>
-
-- 2023.07 ~ 2024.01 (6개월)
-- 총 880 시간 과정
-- 팀 프로젝트 2개, 개인 프로젝트 2개 완성 커리큘럼
-- 성과 발표회 최우수 수상
-
-<mark>C#</mark> <mark>Unity</mark> <mark>3ds Max</mark> <mark>Unreal</mark>
-<br><br>
-
-- - -
-
-## <font color=ff9db9>GCC 사관학교</font>
-
-<i>Unreal 엔진을 활용한 멀티 플랫폼 게임 개발자 양성 과정</i>
-<br><br>
-
-- 2024.03 ~ 2024.10 (7개월)
-- 총 1200 시간 과정
-- C++, Blueprint
-- 개임 프로젝트 1개, 팀 프로젝트 1개 완성 커리큘럼
-
-<mark>C++</mark> <mark>Unreal Engine</mark> <mark>Blueprint</mark> <mark>Github</mark>
-<br><br>
-
-" | markdownify }}
-</div>
-</div>
