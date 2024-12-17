@@ -120,13 +120,17 @@ comments: false
 </div>
 <div class="column2">
 {{ "
-## <font color=ff9db9>???</font>
+## <font color=ff9db9>?????</font>
 
+- 기간 : 24' 10 ~
 - 담당 업무
-  - 스팀 출시 ????? AI 유지 보수 및 개선
-  - 스팀 출시 게임 ????? 스테이지 콘텐츠 개발
-  - 스팀 출시 게임 ????? 새 스테이지 기획 및 제작
 
+    <mark>????? (3D 협동 멀티 플레이, 스팀 출시)</mark>
+  - AI 유지 보수 및 개선
+  - 스테이지 콘텐츠 개발
+  - 새 스테이지 기획 및 제작
+
+<mark>Unreal</mark> <mark>Multi Play</mark>
 " | markdownify }}
 </div></div>
 
