@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93a9bede-73df-460b-b2be-b1621bea4dca" name="변경" comment="" />
+    <list default="true" id="93a9bede-73df-460b-b2be-b1621bea4dca" name="변경" comment="">
+      <change beforePath="$PROJECT_DIR$/2025-07-10-ue-data-registry.md" beforeDir="false" afterPath="$PROJECT_DIR$/2025-07-10-ue-data-registry.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,6 +46,7 @@
       <updated>1752104198909</updated>
       <workItem from="1752104200105" duration="2163000" />
       <workItem from="1753174341986" duration="1195000" />
+      <workItem from="1753175683577" duration="394000" />
     </task>
     <servers />
   </component>

@@ -24,8 +24,7 @@ Data Table을 쓰면서 해당 데이터에 접근하려면 쓰는 곳마다 참
 
 ### 🍥 Data Registry
 
-[언리얼 엔진의 데이터 레지스트리 | 언리얼
-엔진 5.6 문서 || Epic Developer Community] (https://dev.epicgames.com/documentation/ko-kr/unreal-engine/data-registries-in-unreal-engine)
+[언리얼 엔진의 데이터 레지스트리 ∥ 언리얼 엔진 5.6 문서  Epic Developer Community] (https://dev.epicgames.com/documentation/ko-kr/unreal-engine/data-registries-in-unreal-engine)
 
 #### <mark>장점</mark>
 
